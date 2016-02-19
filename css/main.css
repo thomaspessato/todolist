@@ -1,0 +1,123 @@
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+ul{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-weight: lighter;
+  box-sizing: border-box;
+}
+
+p{
+  margin: 0;
+}
+
+.wrapper{
+  width: 90%;
+  margin: 0 auto;  
+}
+
+.title{
+  margin: 0 auto;
+  color: gray;
+  text-align: center;
+  padding-top: 50px;
+  box-sizing: border-box;
+  font-size: 50px;
+  font-weight: lighter;
+}
+
+
+.credits-text{
+  text-align: center;
+  font-size: 13px;
+  color: lightgray;
+  font-weight: lighter;
+}
+
+
+/*TODOLIST STYLE*/
+
+.todo-app{
+  max-width: 400px;
+  background-color: white;
+  margin: 0 auto;
+  box-shadow: 1px 1px 200px -30px gray;
+  margin-top: 100px;
+}
+
+.todo-header{
+  height: 70px;
+  width: 100%;
+  background-color: white;
+  box-shadow: inset 1px -1px 10px -3px black;
+}
+
+
+.todo-input{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  color: gray;
+  font-size: 25px;
+  font-weight: lighter;
+  padding: 0 0 0 20px;
+  box-sizing: border-box;
+  border: none;
+  background: none;
+  
+}
+
+
+
+.todo-list{
+  max-height: 490px;
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+}
+
+
+.todo-item{
+  box-sizing: border-box;
+  padding: 20px;
+  font-size: 25px;
+  font-weight: 100;
+  color: gray;
+  border-bottom: 1px solid lightgray;
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  list-style-type: none;
+}
+
+.close-btn{
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  font-size: 22px;
+  float: right;
+  color: gray;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 100%;
+  margin: 0;
+  transition: all 300ms ease;
+  padding: 0;
+}
+
+.close-btn:hover{
+  box-shadow: 1px 1px 10px -3px black;
+}
+
+
+
