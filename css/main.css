@@ -106,7 +106,7 @@ p{
   display: inline-block;
   font-size: 22px;
   float: right;
-  color: gray;
+  color: black;
   cursor: pointer;
   text-align: center;
   border-radius: 100%;
@@ -117,6 +117,26 @@ p{
 
 .close-btn:hover{
   box-shadow: 1px 1px 10px -3px black;
+}
+
+
+.edit-btn{
+  background-image: url('https://cdn2.iconfinder.com/data/icons/windows-8-metro-style/512/pencil.png');
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  border-radius: 100%;
+  border: none;
+  cursor: pointer;
+  background-size: 16px;
+  background-repeat: no-repeat;
+  background-position: 7px;
+  float: right;
+  margin-right: 5px;
+}
+
+.edit-btn:hover{
+  box-shadow: 1px 1px 10px -5px black;
 }
 
 

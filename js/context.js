@@ -39,19 +39,25 @@ function addItem(data){
   var li = document.createElement("li"),
       closeBtn = document.createElement("span"),
       p = document.createElement("p"),
+      editBtn = document.createElement("button"),
       refChild;
 
   closeBtn.className = "close-btn";
   closeBtn.innerHTML = "x";
   li.className = "todo-item";
+  editBtn.className = "edit-btn";
   li.appendChild(closeBtn);
+  li.appendChild(editBtn);
   li.appendChild(p);
   
   p.innerHTML = data;
-  
   refChild = todoList.firstChild;
- 
   todoList.insertBefore(li,refChild);
+
+}
+
+
+function editItem(){
 
 }
 
